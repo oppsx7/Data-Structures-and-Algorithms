@@ -1,0 +1,3 @@
+/Users/todordimitrov/Education/Course 2/DS&A/Homework3/Task2C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/todordimitrov/Education/Course 2/DS&A/Homework3/Task2C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/todordimitrov/Education/Course 2/DS&A/Homework3/Task2C++/cmake-build-debug/CMakeFiles/Task2C__.dir
