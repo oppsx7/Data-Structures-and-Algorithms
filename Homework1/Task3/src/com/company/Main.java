@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int count = input.nextInt();
-        int position=1;
+        int position;
         int result;
         int maxResult=0;
         int[] array = new int[count];

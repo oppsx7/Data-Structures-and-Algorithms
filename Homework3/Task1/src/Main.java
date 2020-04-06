@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-   static int binarySearch(int arr[], int l, int r, int x) {
+    static int binarySearch(int arr[], int l, int r, int x) {
         if (r >= l) {
             int mid = l + (r - l) / 2;
 

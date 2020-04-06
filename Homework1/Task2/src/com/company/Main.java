@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    void bubbleSort(int arr[])
+    static void bubbleSort(int arr[])
     {
         int n = arr.length;
         for (int i = 0; i < n-1; i++)
@@ -29,8 +29,7 @@ public class Main {
         for (int i = 0; i < count; i++) {
             array[i] = input.nextInt();
         }
-        Main a = new Main();
-        a.bubbleSort(array);
+        bubbleSort(array);
 
         if(array[0]<min){
             System.out.println("no");

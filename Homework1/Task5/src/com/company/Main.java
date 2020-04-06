@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    int calculateTimes(int n) {
+    static int calculateTimes(int n) {
         int times = 0;
         int[] arrayOfCombinations = new int[63];
         boolean[] arrayOfFlags = new boolean[63];
@@ -59,10 +59,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main a = new Main();
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        System.out.println(a.calculateTimes(n));
+        System.out.println(calculateTimes(n));
 
     }
 }

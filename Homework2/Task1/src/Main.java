@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public void countingSort(char[] array) {
+    public static void countingSort(char[] array) {
         int maxNumber = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > maxNumber) {
@@ -36,9 +36,8 @@ public class Main {
             System.out.println("no");
             return;
         }
-        Main a = new Main();
-        a.countingSort(array);
-        a.countingSort(array1);
+        countingSort(array);
+        countingSort(array1);
         for (int i = 0; i < n; i++) {
             if (array[i] != array1[i]){
                 System.out.println("no");
